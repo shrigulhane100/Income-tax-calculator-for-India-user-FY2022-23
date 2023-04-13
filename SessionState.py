@@ -23,7 +23,7 @@ import streamlit as st
 
 
 try:
-    import streamlit.ReportThread as ReportThread
+#     import streamlit.ReportThread as ReportThread
     from streamlit.web.server import Server
 except Exception:
     # Streamlit >= 0.65.0
