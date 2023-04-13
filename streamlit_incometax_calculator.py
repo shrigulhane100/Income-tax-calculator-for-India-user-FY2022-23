@@ -3,7 +3,7 @@
 
 import streamlit as st
 import SessionState
-import streamlit.report_thread as ReportThread
+# import streamlit.report_thread as ReportThread
 from streamlit.web.server import Server
 import pandas as pd
 import math
