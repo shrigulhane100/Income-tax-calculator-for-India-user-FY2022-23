@@ -19,15 +19,17 @@ Usage
 # 'Mary'
 
 """
+import SessionState
+import streamlit.ReportThread as ReportThread
+from streamlit.web.server import Server
 
-
-try:
-    import streamlit.ReportThread as ReportThread
-    from streamlit.web.server import Server
-except Exception:
-    # Streamlit >= 0.65.0
-    import streamlit.report_thread as ReportThread
-    from streamlit.web.server import Server
+# try:
+#     import streamlit.ReportThread as ReportThread
+#     from streamlit.web.server import Server
+# except Exception:
+#     # Streamlit >= 0.65.0
+#     import streamlit.report_thread as ReportThread
+#     from streamlit.web.server import Server
 
 
 class SessionState(object):
