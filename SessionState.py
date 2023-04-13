@@ -20,7 +20,7 @@ Usage
 
 """
 import SessionState
-import streamlit.ReportThread as ReportThread
+import streamlit.report_thread as ReportThread
 from streamlit.web.server import Server
 
 # try:
